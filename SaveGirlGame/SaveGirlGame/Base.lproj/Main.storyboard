@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wkt-Av-6ov">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="ISh-n4-1aG">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wkt-Av-6ov" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="z60-xg-6Ha">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="o8A-3k-SJn" kind="relationship" relationship="rootViewController" id="Ion-Fc-Xuf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V03-FU-Rbe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-516" y="59"/>
+        </scene>
+        <!--Save the Girl-->
+        <scene sceneID="1Ks-01-W3g">
+            <objects>
+                <viewController title="Save the Girl" id="o8A-3k-SJn" customClass="ViewController" customModule="Practice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lKI-hj-ZoQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="girl" translatesAutoresizingMaskIntoConstraints="NO" id="esl-Sc-gSp">
+                                <rect key="frame" x="139.5" y="285.5" width="96" height="96"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lOQ-Oz-ceI">
+                                <rect key="frame" x="0.0" y="400" width="375" height="44"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Tap to Play">
+                                        <attributes>
+                                            <font key="NSFont" size="32" name="Avenir-Roman"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="esl-Sc-gSp" firstAttribute="centerY" secondItem="lKI-hj-ZoQ" secondAttribute="centerY" id="CO1-Xl-ehi"/>
+                            <constraint firstItem="VCo-SJ-kZG" firstAttribute="trailing" secondItem="lOQ-Oz-ceI" secondAttribute="trailing" id="MUJ-tc-nXs"/>
+                            <constraint firstItem="lOQ-Oz-ceI" firstAttribute="top" secondItem="esl-Sc-gSp" secondAttribute="bottom" constant="18.5" id="Owu-cW-9sv"/>
+                            <constraint firstItem="esl-Sc-gSp" firstAttribute="centerY" secondItem="lKI-hj-ZoQ" secondAttribute="centerY" id="RN4-Jt-Upa"/>
+                            <constraint firstItem="lOQ-Oz-ceI" firstAttribute="leading" secondItem="VCo-SJ-kZG" secondAttribute="leading" id="gGo-ve-gRh"/>
+                            <constraint firstItem="esl-Sc-gSp" firstAttribute="centerX" secondItem="lKI-hj-ZoQ" secondAttribute="centerX" id="jb7-os-67Z"/>
+                            <constraint firstItem="esl-Sc-gSp" firstAttribute="centerX" secondItem="lKI-hj-ZoQ" secondAttribute="centerX" id="yjL-hc-Kfz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="VCo-SJ-kZG"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Z1c-UV-vfa">
+                        <barButtonItem key="leftBarButtonItem" title="About" id="gsl-Ah-6ZD"/>
+                        <barButtonItem key="rightBarButtonItem" title="Help" id="hgW-CC-6N0"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="girlImage" destination="esl-Sc-gSp" id="fG8-UN-BSb"/>
+                        <outlet property="tapToPlay" destination="lOQ-Oz-ceI" id="ocR-my-Fy8"/>
+                        <segue destination="c74-wd-3XO" kind="show" identifier="gameStartSegue" id="LKd-K5-NAG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Iro-Ye-AGb" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50" y="59"/>
+        </scene>
+        <!--Game View Controller-->
+        <scene sceneID="KeZ-ok-gQX">
+            <objects>
+                <viewController id="c74-wd-3XO" customClass="GameViewController" customModule="SaveGirlGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gRa-Cd-QP6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="girl" translatesAutoresizingMaskIntoConstraints="NO" id="CMv-nf-kBq">
+                                <rect key="frame" x="139.5" y="285.5" width="96" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="K4z-3C-XXa"/>
+                    </view>
+                    <connections>
+                        <outlet property="characterImageView" destination="CMv-nf-kBq" id="kRI-sT-jwt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nl4-G9-mS2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="960" y="135"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="girl" width="96" height="96"/>
+    </resources>
+</document>

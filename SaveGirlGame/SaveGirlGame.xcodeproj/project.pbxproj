@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE88242F1F7AC9A000304ECA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE88242E1F7AC9A000304ECA /* AppDelegate.swift */; };
+		DE8824311F7AC9A000304ECA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8824301F7AC9A000304ECA /* ViewController.swift */; };
+		DE8824341F7AC9A000304ECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8824321F7AC9A000304ECA /* Main.storyboard */; };
+		DE8824361F7AC9A000304ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8824351F7AC9A000304ECA /* Assets.xcassets */; };
+		DE8824391F7AC9A000304ECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8824371F7AC9A000304ECA /* LaunchScreen.storyboard */; };
+		DE8824441F7AC9A000304ECA /* SaveGirlGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8824431F7AC9A000304ECA /* SaveGirlGameTests.swift */; };
+		DE88244F1F7ACB7100304ECA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE88244E1F7ACB7100304ECA /* GameViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE8824401F7AC9A000304ECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE8824231F7AC9A000304ECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE88242A1F7AC9A000304ECA;
+			remoteInfo = SaveGirlGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE88242B1F7AC9A000304ECA /* SaveGirlGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaveGirlGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE88242E1F7AC9A000304ECA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE8824301F7AC9A000304ECA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE8824331F7AC9A000304ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE8824351F7AC9A000304ECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE8824381F7AC9A000304ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE88243A1F7AC9A000304ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE88243F1F7AC9A000304ECA /* SaveGirlGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaveGirlGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8824431F7AC9A000304ECA /* SaveGirlGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveGirlGameTests.swift; sourceTree = "<group>"; };
+		DE8824451F7AC9A000304ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE88244E1F7ACB7100304ECA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE8824281F7AC9A000304ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE88243C1F7AC9A000304ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE8824221F7AC9A000304ECA = {
+			isa = PBXGroup;
+			children = (
+				DE88242D1F7AC9A000304ECA /* SaveGirlGame */,
+				DE8824421F7AC9A000304ECA /* SaveGirlGameTests */,
+				DE88242C1F7AC9A000304ECA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE88242C1F7AC9A000304ECA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE88242B1F7AC9A000304ECA /* SaveGirlGame.app */,
+				DE88243F1F7AC9A000304ECA /* SaveGirlGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE88242D1F7AC9A000304ECA /* SaveGirlGame */ = {
+			isa = PBXGroup;
+			children = (
+				DE88242E1F7AC9A000304ECA /* AppDelegate.swift */,
+				DE8824301F7AC9A000304ECA /* ViewController.swift */,
+				DE8824321F7AC9A000304ECA /* Main.storyboard */,
+				DE8824351F7AC9A000304ECA /* Assets.xcassets */,
+				DE8824371F7AC9A000304ECA /* LaunchScreen.storyboard */,
+				DE88243A1F7AC9A000304ECA /* Info.plist */,
+				DE88244E1F7ACB7100304ECA /* GameViewController.swift */,
+			);
+			path = SaveGirlGame;
+			sourceTree = "<group>";
+		};
+		DE8824421F7AC9A000304ECA /* SaveGirlGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE8824431F7AC9A000304ECA /* SaveGirlGameTests.swift */,
+				DE8824451F7AC9A000304ECA /* Info.plist */,
+			);
+			path = SaveGirlGameTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE88242A1F7AC9A000304ECA /* SaveGirlGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8824481F7AC9A000304ECA /* Build configuration list for PBXNativeTarget "SaveGirlGame" */;
+			buildPhases = (
+				DE8824271F7AC9A000304ECA /* Sources */,
+				DE8824281F7AC9A000304ECA /* Frameworks */,
+				DE8824291F7AC9A000304ECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SaveGirlGame;
+			productName = SaveGirlGame;
+			productReference = DE88242B1F7AC9A000304ECA /* SaveGirlGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE88243E1F7AC9A000304ECA /* SaveGirlGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE88244B1F7AC9A000304ECA /* Build configuration list for PBXNativeTarget "SaveGirlGameTests" */;
+			buildPhases = (
+				DE88243B1F7AC9A000304ECA /* Sources */,
+				DE88243C1F7AC9A000304ECA /* Frameworks */,
+				DE88243D1F7AC9A000304ECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE8824411F7AC9A000304ECA /* PBXTargetDependency */,
+			);
+			name = SaveGirlGameTests;
+			productName = SaveGirlGameTests;
+			productReference = DE88243F1F7AC9A000304ECA /* SaveGirlGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE8824231F7AC9A000304ECA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Aadit Kapoor";
+				TargetAttributes = {
+					DE88242A1F7AC9A000304ECA = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					DE88243E1F7AC9A000304ECA = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DE88242A1F7AC9A000304ECA;
+					};
+				};
+			};
+			buildConfigurationList = DE8824261F7AC9A000304ECA /* Build configuration list for PBXProject "SaveGirlGame" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE8824221F7AC9A000304ECA;
+			productRefGroup = DE88242C1F7AC9A000304ECA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE88242A1F7AC9A000304ECA /* SaveGirlGame */,
+				DE88243E1F7AC9A000304ECA /* SaveGirlGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE8824291F7AC9A000304ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8824391F7AC9A000304ECA /* LaunchScreen.storyboard in Resources */,
+				DE8824361F7AC9A000304ECA /* Assets.xcassets in Resources */,
+				DE8824341F7AC9A000304ECA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE88243D1F7AC9A000304ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE8824271F7AC9A000304ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8824311F7AC9A000304ECA /* ViewController.swift in Sources */,
+				DE88244F1F7ACB7100304ECA /* GameViewController.swift in Sources */,
+				DE88242F1F7AC9A000304ECA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE88243B1F7AC9A000304ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8824441F7AC9A000304ECA /* SaveGirlGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE8824411F7AC9A000304ECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE88242A1F7AC9A000304ECA /* SaveGirlGame */;
+			targetProxy = DE8824401F7AC9A000304ECA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE8824321F7AC9A000304ECA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE8824331F7AC9A000304ECA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE8824371F7AC9A000304ECA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE8824381F7AC9A000304ECA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE8824461F7AC9A000304ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE8824471F7AC9A000304ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE8824491F7AC9A000304ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7EVY68MD5;
+				INFOPLIST_FILE = SaveGirlGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaditkapoor.SaveGirlGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE88244A1F7AC9A000304ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7EVY68MD5;
+				INFOPLIST_FILE = SaveGirlGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaditkapoor.SaveGirlGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE88244C1F7AC9A000304ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7EVY68MD5;
+				INFOPLIST_FILE = SaveGirlGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaditkapoor.SaveGirlGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SaveGirlGame.app/SaveGirlGame";
+			};
+			name = Debug;
+		};
+		DE88244D1F7AC9A000304ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7EVY68MD5;
+				INFOPLIST_FILE = SaveGirlGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaditkapoor.SaveGirlGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SaveGirlGame.app/SaveGirlGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE8824261F7AC9A000304ECA /* Build configuration list for PBXProject "SaveGirlGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8824461F7AC9A000304ECA /* Debug */,
+				DE8824471F7AC9A000304ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE8824481F7AC9A000304ECA /* Build configuration list for PBXNativeTarget "SaveGirlGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8824491F7AC9A000304ECA /* Debug */,
+				DE88244A1F7AC9A000304ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE88244B1F7AC9A000304ECA /* Build configuration list for PBXNativeTarget "SaveGirlGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE88244C1F7AC9A000304ECA /* Debug */,
+				DE88244D1F7AC9A000304ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE8824231F7AC9A000304ECA /* Project object */;
+}
